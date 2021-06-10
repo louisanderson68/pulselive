@@ -1,0 +1,38 @@
+// In a production environment i would naturally use gulp to generate sprites for every team
+// This is the base functionality of how it works anyway, I thought it best to demonstrate that for this small sample of data
+// The alternative being to cut up the sprite and save each image using Gulp
+.badge-ManchesterUnited, .badge-ManchesterCity, .badge-TottenhamHotspur, .badge-LeicesterCity, .badge-Arsenal {
+  background-image: url('../assets/sprites/badges_sprite.png');
+  background-repeat: no-repeat;
+  background-size: 720px;
+}
+
+.badge-Arsenal {
+  height: 60px;
+  width: 60px;
+  background-position: -60px -60px;
+}
+
+.badge-ManchesterUnited {
+  height: 60px;
+  width: 60px;
+  background-position: -360px -480px;
+}
+
+.badge-ManchesterCity {
+  height: 60px;
+  width: 60px;
+  background-position: -480px -420px;
+}
+
+.badge-TottenhamHotspur {
+  height: 60px;
+  width: 60px;
+  background-position: -300px -600px;
+}
+
+.badge-LeicesterCity {
+  height: 60px;
+  width: 60px;
+  background-position: 0 0;
+}

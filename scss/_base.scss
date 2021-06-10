@@ -1,0 +1,20 @@
+html {
+  font-size: $base-font;
+}
+
+body {
+  color: $font;
+  margin: 0;
+  font-size: $font-reg;
+  font-family: $font-content;
+  font-weight: 300;
+  line-height: 1.1;
+  background: $light-grey;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+

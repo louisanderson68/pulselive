@@ -1,0 +1,144 @@
+.badge-ManchesterUnited, .badge-ManchesterCity, .badge-TottenhamHotspur, .badge-LeicesterCity, .badge-Arsenal {
+  background-image: url("../assets/sprites/badges_sprite.png");
+  background-repeat: no-repeat;
+  background-size: 720px; }
+
+.badge-Arsenal {
+  height: 60px;
+  width: 60px;
+  background-position: -60px -60px; }
+
+.badge-ManchesterUnited {
+  height: 60px;
+  width: 60px;
+  background-position: -360px -480px; }
+
+.badge-ManchesterCity {
+  height: 60px;
+  width: 60px;
+  background-position: -480px -420px; }
+
+.badge-TottenhamHotspur {
+  height: 60px;
+  width: 60px;
+  background-position: -300px -600px; }
+
+.badge-LeicesterCity {
+  height: 60px;
+  width: 60px;
+  background-position: 0 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  color: #1c1c1c;
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  background: #EAEAEA; }
+
+img {
+  width: 100%;
+  display: block; }
+
+#playerstats__wrapper {
+  background: #ffffff;
+  padding: 0;
+  margin: 50px auto;
+  width: 300px; }
+
+#playerstats__select--wrapper {
+  padding: 15px;
+  position: relative; }
+
+#playerstats__selected {
+  margin: 0;
+  padding: 11px;
+  background: #EAEAEA;
+  cursor: pointer;
+  position: relative;
+  font-weight: 400; }
+  #playerstats__selected:after {
+    border: solid #1c1c1c;
+    border-width: 0 2px 2px 0;
+    padding: 4px;
+    content: '';
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); }
+
+#playerstats__select-items {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  z-index: 99; }
+
+.playerstats__option {
+  padding: 11px;
+  background: #EAEAEA;
+  cursor: pointer;
+  border-bottom: 1px solid #BFBFBF; }
+  .playerstats__option:last-child {
+    border: none; }
+  .playerstats__option:hover {
+    background: #BFBFBF; }
+
+.playerstats__select-hide {
+  display: none; }
+
+.playerstats__img--wrapper {
+  max-width: 150px;
+  margin: 15px 0 0 15px; }
+
+.playerstats__stats--wrapper {
+  background: #EC0250;
+  padding: 15px; }
+
+.playerstats__stats--header {
+  color: #ffffff;
+  display: flex;
+  margin-bottom: 15px;
+  position: relative; }
+
+.playerstats__basicinfo {
+  flex-grow: 2; }
+
+.playerstats__name {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 10px; }
+
+.playerstats__badge--wrapper {
+  background: white;
+  padding: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: -60px;
+  right: 0; }
+
+#playerstats__table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #EAEAEA;
+  color: #37003C;
+  box-shadow: 0 0 5px #616161; }
+  #playerstats__table td, #playerstats__table th {
+    padding: 8px; }
+  #playerstats__table th {
+    text-align: left;
+    font-weight: 300; }
+  #playerstats__table td {
+    font-weight: 500;
+    text-align: right; }
+  #playerstats__table tr {
+    border-bottom: 2px solid #EC0250; }
+    #playerstats__table tr:last-child {
+      border-bottom: none; }

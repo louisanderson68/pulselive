@@ -1,0 +1,1 @@
+new Playerstats("playerstats__details", playerList);
